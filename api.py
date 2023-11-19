@@ -13,11 +13,6 @@ telegram_token = '6953404835:AAGh27UXqujVsvAixAZV7zuWBUwAU4n9p44'
 user_token = os.getenv("USER_TOKEN")
 
 app = FastAPI()
-# data = get_data('insurance')
-# s = setup(data, target='charges')
-# best = compare_models()
-# create_api(best, 'insurance_prediction_model')
-
 
 @app.get("/")
 def read_root():
