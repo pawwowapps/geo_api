@@ -2,7 +2,6 @@ from typing import Union
 from fastapi import FastAPI
 from model.models import *
 from dotenv import load_dotenv
-import telebot
 import os
 
 load_dotenv()
